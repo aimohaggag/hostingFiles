@@ -18,12 +18,6 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 */
-ob_start();
-include("code.php");
-$php_to_html = ob_get_clean();
-$html_encoded = htmlentities($php_to_html);  
-echo $html_encoded;
-class Google_Spreadsheet
 {
 	private $client;
 	private $spreadsheet;
