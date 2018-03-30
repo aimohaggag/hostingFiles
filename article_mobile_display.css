@@ -1,0 +1,11 @@
+article {
+    padding:0 10px 0 0;
+}
+.post-header {
+    padding:0;
+}
+@media only screen and (max-width: 768px) {
+article {
+    padding:10px;
+}
+  }
