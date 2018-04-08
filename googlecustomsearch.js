@@ -1,4 +1,5 @@
 
+  <script>
   (function() {
     var cx = '003201941879784817229:_ac4xlzc2c4';
     var gcse = document.createElement('script');
@@ -8,4 +9,5 @@
     var s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(gcse, s);
   })();
-
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
