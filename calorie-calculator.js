@@ -1,4 +1,3 @@
-<script>
 $(document).ready(function() {
   $('#submitButton').click(function(event) {
     event.preventDefault();
@@ -22,4 +21,3 @@ $(document).ready(function() {
     $('#recommended-dose').val(recommendedDose);
   });
 });
-</script>
